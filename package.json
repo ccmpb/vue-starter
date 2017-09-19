@@ -1,0 +1,24 @@
+{
+  "name": "vue-starter",
+  "version": "1.0.0",
+  "description": "Vue starter example",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/colincode/vue-starter.git"
+  },
+  "keywords": [
+    "vue",
+    "starter",
+    "example"
+  ],
+  "author": "colin@elusivelabs.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/colincode/vue-starter/issues"
+  },
+  "homepage": "https://github.com/colincode/vue-starter#readme"
+}
