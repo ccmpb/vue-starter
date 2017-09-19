@@ -20,5 +20,9 @@
   "bugs": {
     "url": "https://github.com/colincode/vue-starter/issues"
   },
-  "homepage": "https://github.com/colincode/vue-starter#readme"
+  "homepage": "https://github.com/colincode/vue-starter#readme",
+  "dependencies": {
+    "vue": "^2.4.4",
+    "webpack": "^3.6.0"
+  }
 }
