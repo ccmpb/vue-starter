@@ -1,8 +1,14 @@
 const express = require('express');
-const app = express();
+const helmet = require('helmet');
+const morgan = require('morgan');
+
+const server = express();
+
+server.use(helmet());
+server.use(morgan('combined'));
 
 const PORT = 3000;
 
-app.listen(PORT, function () {
+server.listen(PORT, function () {
     console.log('listening on port ' + PORT);
 });
