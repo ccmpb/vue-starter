@@ -4,6 +4,7 @@
   "description": "Vue starter example",
   "main": "index.js",
   "scripts": {
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -22,6 +23,7 @@
   },
   "homepage": "https://github.com/colincode/vue-starter#readme",
   "dependencies": {
+    "express": "^4.15.4",
     "vue": "^2.4.4",
     "webpack": "^3.6.0"
   }
