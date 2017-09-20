@@ -3,6 +3,7 @@ const helmet = require('helmet');
 const morgan = require('morgan');
 const createRenderer = require('vue-server-renderer').createRenderer;
 const Vue = require('vue');
+const path = require('path');
 
 const server = express();
 
@@ -10,9 +11,10 @@ server.use(helmet());
 server.use(morgan('combined'));
 
 const PORT = 3000;
+const TEMPLATES = path.join(__dirname, 'src', 'templates');
 
 const renderer = createRenderer({
-    template: require('fs').readFileSync('./src/templates/index.template.html', 'utf-8')
+    template: require('fs').readFileSync(path.join(TEMPLATES, 'index.template.html'), 'utf-8')
 });
 
 server.get('*', (req, res) => {
