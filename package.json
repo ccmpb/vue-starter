@@ -23,11 +23,16 @@
   },
   "homepage": "https://github.com/colincode/vue-starter#readme",
   "dependencies": {
-    "express": "^4.15.4",
-    "helmet": "^3.8.1",
-    "morgan": "^1.8.2",
+    "express": "^4.16.1",
+    "helmet": "^3.8.2",
+    "morgan": "^1.9.0",
     "vue": "^2.4.4",
     "vue-server-renderer": "^2.4.4",
     "webpack": "^3.6.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "vue-loader": "^13.0.5"
   }
 }
