@@ -13,6 +13,8 @@ server.use(morgan('combined'));
 const PORT = 3000;
 const TEMPLATES = path.join(__dirname, 'src', 'templates');
 
+server.use('/dist', express.static(path.join(__dirname, 'dist')));
+
 const renderer = createRenderer({
     template: require('fs').readFileSync(path.join(TEMPLATES, 'index.template.html'), 'utf-8')
 });
