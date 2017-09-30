@@ -27,7 +27,6 @@
     "helmet": "^3.8.2",
     "morgan": "^1.9.0",
     "vue": "^2.4.4",
-    "vue-server-renderer": "^2.4.4",
     "webpack": "^3.6.0"
   },
   "devDependencies": {
@@ -38,6 +37,8 @@
     "less-loader": "^4.0.5",
     "style-loader": "^0.18.2",
     "vue-loader": "^13.0.5",
-    "webpack-merge": "^4.1.0"
+    "vue-server-renderer": "^2.4.4",
+    "webpack-merge": "^4.1.0",
+    "webpack-node-externals": "^1.6.0"
   }
 }
