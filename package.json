@@ -33,6 +33,9 @@
   "devDependencies": {
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
+    "css-loader": "^0.28.7",
+    "less-loader": "^4.0.5",
+    "style-loader": "^0.18.2",
     "vue-loader": "^13.0.5"
   }
 }
