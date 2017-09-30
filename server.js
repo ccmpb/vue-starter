@@ -7,12 +7,15 @@ const path = require('path');
 
 const server = express();
 
-server.use(helmet());
-server.use(morgan('combined'));
-
+// settings
 const PORT = 3000;
 const TEMPLATES = path.join(__dirname, 'src', 'templates');
 
+// common middleware
+server.use(helmet());
+server.use(morgan('combined'));
+
+// static routes
 server.use('/dist', express.static(path.join(__dirname, 'dist')));
 
 const renderer = createRenderer({

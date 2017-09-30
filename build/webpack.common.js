@@ -1,4 +1,6 @@
 const path = require('path');
+const CleanWebpackPlugin = require('clean-webpack-plugin');
+
 
 module.exports = {
     entry: './src/client.js',
@@ -30,5 +32,8 @@ module.exports = {
                 }]
             }
         ]
-    }
+    },
+    plugins: [
+        new CleanWebpackPlugin(['dist']),
+    ]
 };

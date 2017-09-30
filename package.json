@@ -33,6 +33,7 @@
   "devDependencies": {
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
+    "clean-webpack-plugin": "^0.1.17",
     "css-loader": "^0.28.7",
     "less-loader": "^4.0.5",
     "style-loader": "^0.18.2",
